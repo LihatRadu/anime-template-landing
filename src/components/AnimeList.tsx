@@ -31,6 +31,16 @@ function AnimeList() {
         </div>
          <button className='btn hover:btn-outline bg-gradient-to-r from-red-400 to-orange-400 justify-center text-white'>Read More</button>
       </div>
+      {selectedAnime && (
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50">
+          <div className="bg-white p-8 max-w-md rounded-lg shadow-xl">
+            <h2 className="text-2xl font-semibold mb-4">{selectedAnime.name}</h2>
+            <p className="text-gray-700 mb-4">{selectedAnime.description}</p>
+            {/* Add more details as needed */}
+            <button onClick={() => setSelectedAnime(null)}>Close</button>
+          </div>
+        </div>
+      )}
     </>
   )
 }
