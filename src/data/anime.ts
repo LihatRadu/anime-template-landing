@@ -86,7 +86,7 @@ export const anime: Anime[] = [
     genre: "Action",
     duration: 24,
     description: "Fate/Grand Order is a fictional character in the manga and anime. It is the main protagonist of the Fate/Grand Order series.",
-    cover: ''
+    cover: 'https://cdn.myanimelist.net/images/anime/1554/110198.jpg'
   },
   {
     id: 11,
@@ -94,7 +94,7 @@ export const anime: Anime[] = [
     genre: "Action",
     duration: 24,
     description: "Hunter X Hunter is a fictional character in the manga and anime. It is the main protagonist of the Hunter X Hunter series.",
-    cover: ''
+    cover: 'https://i.pinimg.com/originals/c5/d1/a9/c5d1a932c851ed6217098a7d97a4fb9f.jpg'
   },
   {
     id: 12,
@@ -102,6 +102,6 @@ export const anime: Anime[] = [
     genre: "Action",
     duration: 24,
     description: "Steins;Gate is a fictional character in the manga and anime. It is the main protagonist of the Steins;Gate series.",
-    cover: ''
+    cover: 'https://m.media-amazon.com/images/M/MV5BMjUxMzE4ZDctODNjMS00MzIwLThjNDktODkwYjc5YWU0MDc0XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_FMjpg_UX1000_.jpg'
   }
 ]
