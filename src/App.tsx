@@ -18,11 +18,11 @@ function App() {
       <main className='rectangle w-full h-svh bg-gradient-to-r from-orange-200 to-pink-200 bg-transparent
         bg-clip-content'>
        
-        <motion.h1 className='text-5xl text-center font-bold py-20 bg-gradient-to-r from-cyan-500 to-blue-500 
+        <motion.h1 className='text-7xl text-center font-bold py-20 bg-gradient-to-r from-cyan-500 to-blue-500 
           text-transparent bg-clip-text'>
           {mainData.name}
         </motion.h1>
-        <p className='text-center text-white text-xl'>{mainData.description}</p>
+        <p className='text-center text-white text-xl font-bold'>{mainData.description}</p>
       </main>
      
       <What />
